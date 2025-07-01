@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaheer Ahmed | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Zaheer Ahmed</h1>
+  <nav>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul id="nav-links">
+            <li><a href="#about" class="nav-link">Home</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#certification" class="nav-link">Certification</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+               <span class="mode-toggle" onclick="toggleMode()">🌙</span>
+        </ul>
+      
+    </nav>
+        
+    </header>
+
+     <!-- About Me Section -->
+    <section id="about" style="background-image: url('background.jpg'); background-size: cover; background-position: center; color: white;">
+        <div class="about-container" style="background: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 10px; animation: fadeIn 2s;">
+            <div class="about-text">
+                <div class="animated-text"></div>
+                <h1 class="typing-container"></h1>
+                <h2 class="typing-container"><span style="color: orange;"></span></h2>
+                <p class="typing-container"><span style="color: red;"></span></p>
+                <p style="animation: fadeIn 2s;"><span class="hand-emoji">👋</span> Hello! I’m Zaheer Ahmed</p>
+                <p style="animation: fadeIn 2s;">🎓 I’m a passionate B.Tech student specializing in Information Technology at Baba Ghulam Shah Badshah University, Rajouri (Batch 2023). 🎓</p>
+                <p style="animation: fadeIn 2s;">💡 My focus is on IT, AI/ML, and cybersecurity, seeking opportunities to collaborate and innovate.</p>
+                <!-- CV Link -->
+                <div style="text-align: left; padding: 20px;">
+                    <a href="/certificates/Zaheer CV.pdf" target="_blank" style="color: orange; font-weight: bold; text-decoration: none; font-size: 14px; transition: color 0.3s;">View Resume</a>
+                </div>
+            </div>
+            <img src="/profile.jpg" alt="Zaheer Ahmed" style="border: 3px solid #0a3ab3; animation: zoomIn 0.5s;">
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+        <p class="quote">Education Is Not The Learning Of Facts, But The Training Of The Mind To Think.</p>
+        <div class="box-container">
+            <div class="box">
+                <div class="image" onclick="window.open('//maps.app.goo.gl/st1GNwnLm69K3pQd7', '_blank')">
+                    <img src="/certificates/bgsbu.jpg" alt="BGSBU Image">
+                </div>
+                <div class="content">
+                    <h3>Bachelor Of Engineering In Information Technology</h3>
+                    <p>Baba Ghulam Shah Badshah University Rajouri</p>
+                    <h4>2023-2027 | Pursuing</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image" onclick="window.open('//maps.app.goo.gl/YRt32L2Z3rezcXEU8', '_blank')">
+                    <img src="certificates/RUIHSS.jpg" alt="RUIHSS Poonch Image">
+                </div>
+                <div class="content">
+                    <h3>Higher Secondary Education (Non-Medical Stream)</h3>
+                    <p>RUIHSS Poonch</p>
+                    <h4>2021-2023 | Completed</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image" onclick="window.open('//maps.app.goo.gl/xBraP7Po46GEzWA77', '_blank')">
+                    <img src="certificates/YES Mandi.jpg" alt="Yaseen English School Image">
+                </div>
+                <div class="content">
+                    <h3>Secondary Education</h3>
+                    <p>Yaseen English School Mandi, Poonch</p>
+                    <h4>2016-2021 | Completed</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+        <div class="container">
+            <div class="row" id="skillsContainer"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h1 class="heading"><i class="fas fa-code"></i> My <span>Projects</span></h1>
+        <p class="quote">"Code is like humor. When you have to explain it, it’s bad." – Cory House</p>
+        <div class="box-container">
+            <div class="box" onclick="window.open('//zaheer-ahmed015.github.io/sardardullicommunity/', '_blank')">
+                <div class="image">
+                    <img src="certificates/Dulli community.png" alt="Sardar Dulli Community">
+                </div>
+                <div class="content">
+                    <h3>Sardar Dulli Community</h3>
+                    <p>Discover the history and culture of the Sardar Dulli community.</p>
+                </div>
+            </div>
+            <div class="box" onclick="window.open('//zaheer-ahmed015.github.io/BGSBU-Cleanliness-Page/', '_blank')">
+                <div class="image">
+                    <img src="certificates/cleanliness.png" alt="BGSBU Cleanliness web page">
+                </div>
+                <div class="content">
+                    <h3>BGSBU Cleanliness web page</h3>
+                    <p>Cleanliness web page in which we can upload images of garbage at any place with address and description. It also contains rating.</p>
+                </div>
+            </div>
+             <div class="box" onclick="window.open('//zaheerahmed04.github.io/Scientific-Calculator/', '_blank')">
+                <div class="image">
+                    <img src="/certificates/Scientific calculator.png" alt="Scientific Calculator">
+                </div>
+                <div class="content">
+                    <h3>Scientific Calculator</h3>
+                    <p>Scientific Calculator for solving mutiples operation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Section -->
+    <section id="certification">
+        <h2><i class="fas fa-briefcase"></i> <span><b>Certification</b></span></h2>
+        <div class="certificate-container">
+            <div class="certificate">
+                <img src="certificates/common internship test.jpg" alt="Common Internship Test">
+                <h3>Common Internship Test</h3>
+                <p>Certificate of participation for participating in the common internship Test conducted by Internship Studio</p>
+                <a href="certificates/certificate1.pdf" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate">
+                <img src="certificates/skill nation.jpg" alt="Skill Nation">
+                <h3>Skill Nation</h3>
+                <p>Successfully completed the live masterclass on Claude AI from Skill Nation! This comprehensive program was conducted by Microsoft certified expert Hardik Raja.</p>
+                <a href="certificates/certificate2.pdf" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate">
+                <img src="certificates/cert3.jpg" alt="Web Development Mastery">
+                <h3>CyberSecurity Internship Certificate</h3>
+                <p>Zaheer Ahmed successfully completed online training on “Ethical Hacking and Penetration Testing” with a virtual internship, conducted by C-DAC Noida under the Cyber Gyan Project from Jan–Mar 2025.</p>
+                <a href="certificates/cert3.pdf" target="_blank">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-section">
+            <h3>Zaheer's Portfolio</h3>
+            <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+            <p>Keep Rising 🚀. Connect with me over live chat!</p>
+        </div>
+        <div class="footer-section quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#about">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certification">Certification</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact-info">
+            <h3>Contact Info</h3>
+            <p>📍 Poonch, Jammu and Kashmir</p>
+            <p>📞 +91 910-307-8148</p>
+            <p>✉️ zaheerkhanzaheer015@gmail.com</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/zaheer-ahmed-9aa88830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+                <a href="https://github.com/Zaheer-Ahmed015" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"></a>
+                <a href="mailto:zaheerkhanzaheer015@gmail.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"></a>
+                <a href="https://x.com/zaheerkhan04ITE?t=tsRqEemyvvmiBxaoXVyofA&s=09" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+                <a href="http://t.me/IT_Zaheer" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        Designed By <span>Zaheer Ahmed</span>
+    </div>
+    <div class="chat-icon" onclick="window.location.href='//wa.me/919103078148'">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="Chat Icon" style="width: 24px; height: 24px; background: none;">
+    </div>
+    <div class="scroll-up" onclick="scrollToTop()">
+        ⬆
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
