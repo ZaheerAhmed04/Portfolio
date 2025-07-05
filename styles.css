@@ -199,8 +199,6 @@ h2 {
     font-size: 2em;
     letter-spacing: 2px;
 }
-
-/* About Section */
 /* About Section */
 .about-container {
     display: flex;
@@ -210,8 +208,8 @@ h2 {
 }
 
 .about-container img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     border: 3px solid #004e92;
     object-fit: cover;
